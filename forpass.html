@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot Password</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .form-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px; }
+        input { width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background: #cc6600; color: white; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #994d00; }
+        .links { margin-top: 10px; font-size: 12px; text-align: center; }
+        .links a { color: #0066cc; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h2>Reset Password</h2>
+        <p style="font-size: 12px; color: #666;">Enter your email to receive a reset link.</p>
+        <form action="#" method="POST">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <button type="submit">Send Reset Email</button>
+        </form>
+        <div class="links">
+            <a href="login.html">Back to Login</a> | <a href="index.html">Home</a>
+        </div>
+    </div>
+</body>
+</html>
